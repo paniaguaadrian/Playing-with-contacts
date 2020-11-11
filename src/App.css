@@ -1,0 +1,78 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #282c34;
+}
+
+.app_hero_container h1 {
+  margin: 0 !important;
+  padding-top: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.app_hero_container h2 {
+  padding-top: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+hr {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.btn_container {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.btn_container button {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 15rem;
+  height: 2rem;
+  background-color: #6f7277;
+  color: white;
+}
+
+.contacts_container {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  border: 1px solid red;
+}
+
+.delete-button {
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  height: 2rem;
+  background-color: #7a2634;
+  color: white;
+}
+
+.add-button {
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 15rem;
+  height: 2rem;
+  background-color: #6f7277;
+  color: white;
+  margin: 2rem 0;
+}
